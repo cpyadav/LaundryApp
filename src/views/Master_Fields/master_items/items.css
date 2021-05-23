@@ -1,0 +1,36 @@
+.items_img{
+    height: 50px;
+    border-radius: 10px;
+}
+
+.item_dialog_img{
+    height: 180px;
+    border-color: black;
+    border: solid;
+    margin-bottom: -20px;
+
+    
+}
+
+.upload_main_div{
+    /* display: flex;
+    flex-direction: row; */
+    /* align-items: center;
+    justify-content: space-around; */
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+
+}
+
+.uploader_but_loader_main_div{
+    height: 80px;
+    width: 60px;
+}
+
+.masterfields_additem{
+    display: block;
+    position: absolute;
+    right: 10px;
+    top : 20px;
+}

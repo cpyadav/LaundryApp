@@ -1,0 +1,101 @@
+.TopMenu_ratecard{
+    align-self: center;
+     width: 100%; 
+    text-align-last: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.TopMenu_ratecard>div>button{
+    
+    margin-right : 15px
+}
+
+.TopMenu_ratecard>div{
+    
+    margin-right : 15px;
+    align-items: center;
+    display: flex;
+}
+
+
+
+.rate_card_title{
+
+    margin: 10px;
+    background-color: #673ab7;
+    color: white;
+    padding: 15px;
+    width: fit-content;
+    border-radius: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+
+}
+
+.ratecard_masteritem_img{
+ 
+    width: 100px;
+}
+
+.ratecard_masteritem_img>img{
+    height: 50px;
+    /* width: 30px; */
+}
+
+
+
+.ratecard_masteritem_maindiv{
+ 
+
+    display: flex;
+}
+
+
+.add_search_div{
+    /* justify-content: space-between; */
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.ratecard_maincont_div>div{
+    padding: 5px;
+}
+
+.ratecards_edit_bifur_main_div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ratecards_main_div{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.ratecards_main_div>button{
+
+    margin-top: 15px;
+   
+}
+
+.ratecards_search_div{
+    margin-top: 80px;
+}
+
+
+
+.ratecards_main_div_button_div{
+width: 100%;
+display: flex;
+justify-content: space-between;
+}
+
+
+
+

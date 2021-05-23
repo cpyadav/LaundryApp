@@ -1,0 +1,128 @@
+.customer_maindiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+  background-color: rgb(255, 255, 255);
+ 
+  margin-bottom: 10px;
+
+}
+
+.Manage_customer_top_bar{
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  
+}
+
+.header_maindiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #454070;
+  margin-top: 10px ;
+  margin-bottom: 10px;
+
+}
+
+.customer_main{
+  font-weight: 700;
+  width : 20%;
+  text-align: -webkit-center;
+  font-size: 16px;
+}
+
+.qrydiv{
+  display: flex;
+  flex-direction: row;
+}
+
+.manage_cust_top_details{
+ 
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+
+.header_main{
+  font-weight: 700;
+  width : 20%;
+  text-align: -webkit-center;
+  font-size: 16px;
+  color: white;
+}
+.customer_edit{
+  height: 10px;
+  font-weight: 700;
+  width : 20%;
+  text-align: -webkit-center;
+  font-size: 16px;
+  margin-top: -6px;
+}
+
+.loader_cust {
+  border: 5px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 5px solid gray;
+  width: 12px;
+  height: 12px;
+ 
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+.loader_div_cust{
+  text-align: -webkit-center;
+    margin-top: 15%;
+}
+
+.create_cust_main_div{
+display: flex;
+flex-direction: row;
+width: 100%;
+justify-content: space-around;
+}
+
+.create_cust_sub_div{
+  width: 40%;
+  height: auto;
+  /* background-color: teal; */
+}
+
+.create_cust_indi_address_div{
+  margin-bottom: 10px;
+  width: 100%;
+  border: solid;
+  padding: 10px;
+  border-width: 1px;
+  margin: 10px;
+  border-radius: 5px;
+  font-weight: 900;
+}
+
+.create_cust_top_div{
+  margin: 50px;
+  margin-bottom: 15px ;
+  margin-top: 15px ;
+}
+
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* style = {{marginBottom : "10px", width : "100%", padding : "10px"}} */

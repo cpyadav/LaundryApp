@@ -1,0 +1,119 @@
+.TableAPI_label_div{
+    font-weight: 600;
+    /* text-align-last: justify; */
+    /* text-align-last: auto; */
+    text-align: -webkit-left;
+    color: rgb(100, 100, 100);
+    margin-top: -20px;
+}
+
+.TableAPI_header_main_div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    /* background-color: #554baa; */
+    /* border-radius: 10px; */
+    margin-top: 20px;
+    /* color: black; */
+    max-height: 70px;
+    min-height: 50px;
+    
+    
+}
+
+.TableAPI_filter_main_div{
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    /* border-radius: 10px; */
+    margin-top: -20px;
+    color: white;
+    max-height: 70px;
+    min-height: 50px;
+  
+
+}
+
+.TableAPI_header_sub_div{
+    /* align-self: center; */
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.TableAPI_data_main_div{
+
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    /* margin-top: 20px; */
+    /* font-size: 10px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+   
+    
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(200,200,200);
+    border-bottom-style: solid;
+
+    
+}
+
+.TableAPI_data_sub_div{
+    text-align-last: left;
+    font-weight: 500;
+    align-self: center;
+    font-size: 15px;
+
+    font-family: 'Montserrat';
+    margin-left: 12px;
+    overflow: hidden;
+    /* background-color: #554baa; */
+
+}
+
+.TableAPI_footer_main_div{
+    width: 95%;
+    text-align-last: right;
+    margin-top: 30px;
+    margin-right: 5%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+}
+
+.TablesAPI_filter_main_div{
+    width: 95%;
+    /* background-color: lawngreen; */
+    text-align-last: right;
+    margin-top: 30px;
+    margin-right: 5%;
+   
+}
+
+.TablesAPI_dialog_main_div{
+    
+   
+    margin: 30px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    display: flex;
+   
+    
+}
+
+.No_data_text{
+    width: 100%;
+    background-color: rgb(230, 230, 230);
+    font-weight: 600;
+    color: rgb(50, 50, 50);
+    text-align-last: center;
+}

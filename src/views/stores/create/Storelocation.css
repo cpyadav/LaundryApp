@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 18px;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+  
+  h1 {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    color: #281414;
+    z-index: 10;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .search {
+    position: absolute;
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 400px;
+    z-index: 10;
+  }
+  
+  .search input {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    width: 100%;
+  }
+  
+  .locate {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    z-index: 10;
+  }
+  .locate img {
+    width: 30px;
+    cursor: pointer;
+  }
+
+  .combolist{
+      background-color: azure;
+      color: black;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 10px;
+      border-radius: 5px;
+
+  }
+/* 
+  .placesauto{
+      
+      text-align-last: center;
+  
+
+      width: 100%;
+  } */
+
+
+  .suggests{
+    
+    color: black;
+    margin-top: 20px;
+    /* background-colo
+    
+    r: black; */
+  }
+
+
+  .placesauto{
+      
+    text-align-last: center;
+   
+    top: 0;
+    left: 0;
+    width: max-content;
+    z-index: 5;
+    width: 100%;
+}
+
+
+
+  .autocomplete-dropdown-container{
+    width: 100%;
+    border-radius: 20%;
+    z-index: 10;
+    height: 0;
+    font-size: 14px;
+    
+  
+
+  }
+  .autocomplete_master{
+
+    width: 100%;
+
+  }

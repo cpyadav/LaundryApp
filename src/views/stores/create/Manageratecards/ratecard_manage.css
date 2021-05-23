@@ -1,0 +1,50 @@
+.manage_ratecards_main_div{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+
+.manage_ratecards_type{
+    width: 40%;
+   
+    
+   
+}
+
+.manage_staff_type{
+    width: 30%;
+   
+    
+   
+}
+
+.Stepperform_main_div{
+    margin-top: 50px;
+  
+}
+
+.inner_titles{
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-grid;
+    width: 100%;
+}
+
+.company_main_div{
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.label_class{
+    margin: 5px;
+}
+
+.indi_ratecard_stores{
+    width: 100%;
+    margin: 5px;
+
+}

@@ -1,0 +1,45 @@
+.ordertopbar_main_div>div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.service_main_div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.service_main_div>div{
+    display: flex;
+    width: 30%;
+    /* max-width: 30%; */
+    /* background-color: bisque; */
+
+}
+
+.category_main_div{
+    margin: 20px;
+}
+
+.order_summary_main_div{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.ordermain_main_div{
+
+    display: flex;
+
+}
+
+.ordermain_main_div>div{
+
+    width: 50%;
+    
+}
+
+.payment_main_div_options{
+    margin-top: 20px;
+}
+

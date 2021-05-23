@@ -1,0 +1,47 @@
+.SideNav_maindiv{
+
+    background-color: rgb(55, 45, 119);
+    width: 4rem;
+    transition: 0.4s ease;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    max-width: 250px;
+    
+   position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 50;
+
+}
+
+.SideNav_subdiv{
+  overflow: hidden;
+  height: auto;
+  overflow-y: auto;
+  /* margin-bottom: 5vh; */
+}
+
+.SideNav_subdiv>div>button>span>span{
+
+
+  margin: 0.5rem;
+  
+  
+}
+
+.SideNav_subdiv>div>a>span>span{
+
+
+  margin: 0.5rem;
+  
+}
+
+.SideNav_maindiv:hover{
+    width: 20vw;
+    /* max-width: 250px; */
+    transition: 0.4s ease;
+}
+
+
+

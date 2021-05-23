@@ -1,0 +1,41 @@
+.Manage_orders_main_div{
+
+text-transform: uppercase;
+
+}
+
+.Table_elem_size{
+    font-size: 14px !important ;
+}
+
+.status_in_tables{
+
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: -10px;
+    margin-right: 15px;
+
+}
+
+.gimme_space{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.manage_orders_dialog_div{
+
+    
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.manage_orders_dialog_div>div{
+
+    
+ margin-top: 10px;
+
+
+}

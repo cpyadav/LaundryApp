@@ -1,0 +1,23 @@
+.listview_main_div>div{
+
+display: flex;
+justify-content: space-between;
+
+}
+
+.listview_main_div>div>div{
+
+    margin-top: 20px;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+    
+    }
+
+.listview_main_div>{
+
+    width: 100%;
+
+
+    
+    }

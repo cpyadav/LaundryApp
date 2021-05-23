@@ -1,0 +1,276 @@
+.rendertop_order_maindiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.order_autocomp_options{
+    align-items: center;
+    justify-items: normal;
+    display: flex;
+    font-size: 15px;
+    
+}
+
+.sendtotopright{
+
+    width: 100%;
+    text-align: -webkit-right;
+    margin-top: -50px;
+
+}
+
+.servicenorder_main_div{
+
+    /* background-color: saddlebrown; */
+    width: 100%;
+    /* height: 600px; */
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.Select_category_master{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    /* overflow-y: scroll; */
+}
+.servicesncats_main_div{
+
+    /* background-color: green; */
+    width: 60%;
+    /* height: 600px; */
+   
+    display: flex;
+    flex-direction: column;
+    
+}
+.categories_list_main_div{
+
+    /* background-color: olive; */
+    /* width: 30%; */
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+    
+}
+.service_list_main_div{
+    /* background-color: purple; */
+    width: 100%;
+    /* height: 300px; */
+    overflow-y: scroll;
+    /* padding-bottom: 150px; */
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.order_main_div{
+    /* background-color: red; */
+    width: 40%;
+    /* height: 600px; */
+    margin-left: 10px;
+   
+}
+
+.order_main_div_core{
+ 
+    width: 100%;
+    margin-left: 10px;
+    overflow-y: scroll;
+    /* padding-bottom: 100px; */
+    height: 500px;
+    
+   
+}
+
+.category_comp{
+
+    max-height: 60px;
+    margin-top: 20px;
+
+}
+
+.indiservice_maindiv_image{
+
+/* width: 100%; */
+max-width: 70%;
+height: 120px;
+border-radius: 10px;
+align-self: center;
+}
+
+.indiservice_maindiv_button{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+.indiservice_maindiv_servicename{
+    color: black;
+    width: 60%;
+    font-weight: 600;
+    position: absolute;
+    top: 0;
+    font-size: 10px;
+    left: 5;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px gray;
+   
+
+    /* background-color: teal; */
+}
+
+.indiservice_maindiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    color: white;
+    border: solid;
+    border-color: gray;
+    border-width: 1px;
+    /* background-color: #673ab7; */
+    margin: 5px;
+    border-radius: 7px;
+    align-items: center;
+    width: 30%;
+    background-color: white;
+    position: relative;
+    border-bottom-right-radius: 5px;
+    box-shadow: 5px 5px 15px gray;
+
+  
+
+    
+}
+
+.selectedservs_individual_div{
+    align-items: center;
+    width: 100%;
+}
+
+.selectedservs_suborder_main_div{
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: grey;
+    /* width: 90%; */
+}
+
+.selectedservs_suborder_main_div>div{
+    margin-bottom: 50px;
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+
+.suborder_headingnexpress_maindiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.selectedservs_individual_div_qtty{
+    display: flex;
+    /* background-color: orangered; */
+    width: 40%;
+    flex-direction: row;
+    overflow: hidden;
+    justify-content: flex-end;
+    text-align-last: center;
+
+   
+}
+
+.selectedservs_individual_div>div{
+    display: flex;
+    /* width: max-content; */
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.selectedservs_individual_div_remove{
+
+    width: 35%;
+    display: flex;
+    justify-content: flex-end;
+   
+}
+.selectedservs_individual_div_price{
+  
+    display: flex;
+}
+
+.selectedservs_individual_div_price_multi{
+    width: 10px;
+    
+}
+.selectedservs_individual_div_qtty_sub{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.selectedservs_individual_div_servicename{
+    display: flex;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #673ab7;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    margin-left: 0px;
+    border-radius: 3px;
+    height: 25px;
+    text-decoration: underline;
+    max-width: 50%;
+    overflow: hidden;
+   
+}
+
+.indiservice_maindiv_subcomp{
+    width: 15%;
+    /* background-color: orangered; */
+}
+
+.indiservice_maindiv_subcomp_name{
+    width: 30%;
+}
+
+::-webkit-scrollbar {
+    width: 1px !important;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+  
+
+
+
+
+
+

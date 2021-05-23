@@ -1,0 +1,86 @@
+.wallet_top_bar_main_div{
+
+    width: 100%;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* padding: 0px 60px 0px 60px; */
+   
+
+}
+
+.wallet_mid_bar_main_div{
+
+    width: 100%;
+    margin-top: 10px;
+   
+
+   
+
+}
+
+.wallet_mid_bar_sub_div{
+
+    width: 100%;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* padding: 0px 20px 0px 20px; */
+   
+
+}
+
+
+.wallet_ebd_bar_main_div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.wallet_end_bar_sub_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 16px;
+    /* background-color: tomato; */
+    /* align-items: center; */
+    font-weight: 600;
+    width: 40%;
+
+}
+
+.wallet_end_bar_sub_div>div{
+   
+    margin-bottom: 10px;
+
+}
+
+.amount_div{
+    /* background-color: blueviolet; */
+    /* padding: 15px; */
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    /* border-radius: 5px;
+    color: whitesmoke;
+    box-shadow: 5px 5px 5px gray; */
+
+}
+
+
+.amount_div>button{
+    margin-bottom: 10px;
+}
+
+.wallet_end_bar_amt_div{
+    width: 30%;
+    background-color: blueviolet;
+    /* padding: 5px; */
+    border-radius: 5px;
+    color: whitesmoke;
+    box-shadow: 5px 5px 5px gray;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+
+}

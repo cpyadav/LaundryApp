@@ -1,0 +1,72 @@
+.sendtotopright{
+
+    width: 100%;
+    text-align: -webkit-right;
+    margin-top: -50px;
+
+}
+
+.master_slots_subdiv{
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Timeslots_Main_stores{
+    margin: 0px 0px 30px 0px;
+}
+
+.matrix_timeslot_subdiv{
+    height: 50px;
+    display: flex;
+
+}
+
+.matrix_subdiv_desc{
+    display: flex;
+    height: 50px;
+
+}
+
+.matrix_subdiv>div{
+
+    width: 50px;
+
+}
+
+.addslots_dialog_Slots_main_div{
+    display: flex;
+    flex-direction: column;
+}
+
+.addslots_dialog_Slots_main_div>div{
+    display: flex;
+    flex-direction: column;
+}
+.storestimeslots_toptoggle_main_div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    width:95%;
+}
+
+.matrix_subdiv>{
+
+ display: flex;
+ flex-direction: row;
+
+}
+
+.toggle_tex_main_div{
+    display: flex;
+    align-items: center;
+    /* background-color: aliceblue; */
+    padding: 2px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: rgb(200,200,200);
+    margin-bottom: 5px;
+}

@@ -1,0 +1,50 @@
+.sendtotopright{
+
+    width: 100%;
+    text-align: -webkit-right;
+    margin-top: -50px;
+
+}
+
+.sendtotopright>button{
+
+    margin: 10px;
+
+}
+
+.master_slots_subdiv{
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.matrix_timeslot_subdiv{
+    height: 50px;
+    display: flex;
+
+}
+
+.matrix_subdiv_desc{
+    display: flex;
+    height: 50px;
+
+}
+
+.matrix_subdiv>div{
+
+    width: 50px;
+
+}
+
+.matrix_subdiv>{
+
+ display: flex;
+ flex-direction: row;
+
+}
+
+.DND_main_div>div{
+width: 100% !important;
+}

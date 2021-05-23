@@ -1,0 +1,14 @@
+.simplecard_api_title{
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-bottom: 1rem!important;
+   
+}
+
+.simplecard_api_maindiv{
+    padding: 1.5rem;
+    height: fit-content;
+    overflow: hidden;
+   
+}

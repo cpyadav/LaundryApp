@@ -1,0 +1,95 @@
+.create_coupons_cardtoggle{
+    text-align: -webkit-right;
+    margin-top: -50px;
+   
+    transition: 0.4s ease-in;
+}
+
+.sendtotopright{
+
+    width: 100%;
+    text-align: -webkit-right;
+    margin-top: -50px;
+
+}
+
+.create_coupons_cardview>div>div>div>div{
+    margin-right: 30px
+}
+
+
+
+#time-picker>div>div>div{
+    margin-right: 30px
+}
+
+.create_coupons_basicdetails_maindiv{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.create_coupons_basicdetails_maindiv>div{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.uploader_but_loader_main_div{
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
+
+.create_coupons_rendercity{
+    display: flex;
+    flex-direction: column;
+}
+
+.container>div>div{
+margin: 10px;
+
+}
+
+.coupon_scheme_inddiv{
+    display: flex;
+    margin: 15px;
+    /* max-height: 60px; */
+}
+
+.create_coupons_rendertop_maindiv{
+    width: 50%; 
+     display: flex;
+    justify-content: space-around; 
+    flex-direction: column;
+
+    
+}
+
+.create_coupons_rendertop_imgdiv{
+
+   
+  
+    border-radius: 20px;
+    border: solid;
+    display: flex;
+    /* margin-bottom: 50px; */
+    max-height: 250px;
+    
+}
+
+.create_coupon_booking{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+
+
+
+
+
+
+
+
