@@ -105,8 +105,7 @@ export default [
             name: "Manage",
             path: "/order/manage",
             icon: "arrow_right",
-          },
-    
+          }
           
         ]
       },

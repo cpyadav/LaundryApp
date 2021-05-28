@@ -76,8 +76,6 @@ export default function App() {
           
           <Route path="/order/create"> <CreateOrder /> </Route>
           <Route path="/order/manage"> <ManageOrder /> </Route>
-       
-
           <Route path="/Membership/manage"> <Membership /> </Route>
 
           <Route path="/Wallet/manage"> <Wallet /> </Route>
