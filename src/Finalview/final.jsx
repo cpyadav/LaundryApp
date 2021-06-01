@@ -20,6 +20,8 @@ import CreateStaff from '../views/staffs/CreateStaff'
 import ManageStaff from '../views/staffs/Manage'
 
 import CreateOrder from '../views/orders/create/create'
+import CreateOrderForm from '../views/orders/create/createorder'
+
 import ManageOrder from '../views/orders/manage/Manage.jsx'
 
 import Membership from '../views/memberships/Manage'
@@ -75,6 +77,7 @@ export default function App() {
 
           
           <Route path="/order/create"> <CreateOrder /> </Route>
+          <Route path="/order/createorder/:id"> <CreateOrderForm /> </Route>
           <Route path="/order/manage"> <ManageOrder /> </Route>
           <Route path="/Membership/manage"> <Membership /> </Route>
 
